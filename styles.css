@@ -1,0 +1,185 @@
+::-webkit-scrollbar {
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(59, 59, 59);
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    width: 100px;
+}
+::-webkit-scrollbar-corner {
+    background-color: rgb(59, 59, 59);
+}
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+    border: 1px solid grey;
+}
+body {
+    margin: auto;
+}
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.contOptions {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contOptionsP {
+    background-color: grey;
+    cursor: pointer;
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    border-radius: 8px;
+}
+.options {
+    margin: auto;
+}
+.manual {
+    background-color: black;
+    color: darkgrey;
+    cursor: pointer;
+}
+#children0 {
+    grid-area: header;
+    background-color: grey;
+}
+#children1 {
+    grid-area: aside;
+}
+#children1 > button {
+    border-radius: 8px;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+}
+#children2 {
+    grid-area: center;
+    width: 800px;
+    height: 1110px;
+    border: 0px;
+    background-color: white;
+    padding: 0px;
+}
+#children3 {
+    grid-area: bside;
+}
+.childrens {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: aliceblue;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: grid;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: rgb(59, 59, 59);
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: rgb(118, 118, 118);
+    border-image: initial;
+}
+
+#divPhoto {
+    background-color: rgb(239, 239, 239);
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+#divPhoto > input {
+    max-inline-size: -webkit-fill-available;
+    opacity: 0;
+    cursor: pointer;
+    height: 80%;
+}
+.photoCriada {}
+.divCriada {
+    background-color: black;
+    height: 200px;
+}
+.itemCriado {
+    cursor: move;
+    width: 200px;
+}
+.itemCriadoMovendo {
+    border: 3px dashed orangered;
+    z-index: 100;
+}
+.contBside {
+    padding: 1px 6px;
+}
+.contTamanho {
+    justify-content: center;
+    display: grid;
+}
+.contLargura {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contRange {
+    display: flex;
+}
+.inputNumber {
+    text-align: center;
+}
+#contOpacity {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contSobre {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contRangeSobre {
+    display: flex;
+}
+#contFilter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contButtonsText {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+}
+#contButtonsText > input {
+    height: 90%;
+}
+#contButtonsText > button {
+    width: 30%;
+}
